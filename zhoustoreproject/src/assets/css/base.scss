@@ -1,0 +1,294 @@
+.mr5 {margin-right: 5px !important;}
+.mr10 {margin-right: 10px !important;}
+.mr20 {margin-right: 20px !important;}
+.mr30 {margin-right: 30px !important;}
+.mt2 {margin-top: 2px !important;}
+.mt5 {margin-top: 5px !important;}
+.mt8 {margin-top: 8px !important;}
+.mt10 {margin-top: 10px !important;}
+.mt12 {margin-top: 12px !important;}
+.mt13 {margin-top: 13px !important;}
+.mt15 {margin-top: 15px !important;}
+.mt_15 {margin-top: -15px !important;}
+.mt40 { margin-top: 40px !important;}
+.mt20 { margin-top: 20px !important;}
+.mb20 {margin-bottom: 20px;}
+.mb15 {margin-bottom: 15px;}
+.mb10 {margin-bottom: 10px;}
+.mb5 {margin-bottom: 5px;}
+.mb0 {margin-bottom: 0 !important;}
+.mt30 {margin-top: 30px;}
+.mt40 {margin-top: 30px;}
+.ml5 {margin-left: 5px !important;}
+.ml10 {margin-left: 10px !important;}
+.ml15 {margin-left: 15px !important;}
+.ml20 {margin-left: 20px !important;}
+.pl5{padding-left: 5px;}
+.pl10{padding-left: 10px;}
+.pl20{padding-left: 20px;}
+.pad20 {padding: 20px;}
+.cp {cursor: pointer;}
+.fl {float: left;}
+.fr {float: right;}
+.w60 {width: 60px;}
+.w80 {width: 80px;}
+.w100 {width: 100px;}
+.lh40 {line-height: 40px;}
+.lh24 { line-height: 24px;}
+.lh26 { line-height: 26px;}
+.lh32 { line-height: 32px;}
+.fs13 {font-size: 13px;}
+.fs12 {font-size: 12px !important;}
+.fs14 {font-size: 14px !important;}
+.fs15 {font-size: 15px;}
+.fs16 {font-size: 16px;}
+.fs18 {font-size: 18px !important;}
+.fs20 {font-size: 20px !important;}
+.fb{font-weight: bold;}
+.red {color: red;}
+// 首字母相同，放到一块
+.ba_fff{background: #fff;}
+.c-main {
+  color: $main-color;
+}
+.c_999 {color: #999;}
+.c_777 {color: #777;}
+.c_a0a {color: #A0AAB3;}
+.c142{color: #1D2129;}
+.c_869 {color: #86909C;}
+
+.c_ffd{color: #ffd005 !important;}
+.c_ed4{color: $danger-color !important;}
+.c_link{color: $link-color;}
+td.cname{color: $link-color;} // 由于表格的th颜色不变
+.c-table-index{color: $text-secondary-color;}
+.clear{clear: both;}
+.ta_l{text-align: left;}
+.ta_r{text-align: right;}
+.ta_c{text-align: center;}
+.el-form-item .el-form-item{margin-bottom: 18px;}
+.w_100{width: 100%;}
+.df {display: flex;}
+h3{font-size: 15px;}
+.mh-650 { min-height: 650px;}
+.ml60 {margin-left:60px !important;}
+.nowrap {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.success {
+  color: #67C23A !important;
+}
+.warning {
+  color: #E6A23C!important;
+}
+.danger {
+  color: #F56C6C;
+}
+.el-empty__description {
+  padding-top: 0;
+  margin-top: 0;
+  line-height: 30px;
+  p {
+    color: #A0AAB3;
+  }
+}
+.czjz {
+  -webkit-box-orient:horizontal;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+}
+.gray-dot,.green-dot,.red-dot,.yellow-dot,.blue-dot,.skyBlue-dot{
+  padding-left: 12px;
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-45%);
+    border-radius: 100%;
+  }
+}
+.container::after {
+  display: block;
+  height: 0;
+  content: '';
+  clear: both;
+}
+.container {
+  display: inline-block; /*第一种撑开办法，底下会有部分被遮到，所以添加这行，就完美了*/
+}
+.gray-dot::after{background: rgb(187, 189, 190);}
+.green-dot::after{background: rgb(0, 180, 42);}
+.red-dot::after{background: rgb(245, 63, 63);}
+.yellow-dot::after{background: #FE7D01;}
+.blue-dot::after{background: rgb(24, 144, 255);}
+.skyBlue-dot::after{background: rgb(36, 187, 185);}
+.avue-tags {
+  border: 1px solid #e6edf3;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.el-col {
+  margin-bottom: 3px;
+}
+.danger:hover{
+  color: #f39d9d !important;
+}
+.danger:focus{
+  color: #ef8989 !important;
+}
+.danger:active{
+  color: #d14141 !important;
+}
+// .el-table--small .el-table__cell {
+//   padding: 5px 0;
+// }
+.el-button--primary.is-plain {
+  background: #fff;
+}
+.el-button:focus-visible {
+  outline: 0;
+  outline-offset: 0;
+}
+.el-button--primary.is-plain:hover {
+  background: #165DFF;
+}
+.el-button--primary.is-plain:focus {
+  background: #4c82fd;
+}
+.el-button--primary.is-plain:active{
+  background: #094de9;
+}
+.el-button--text span {
+  color: #165DFF;
+}
+.el-button--text span:hover {
+  color: #4c82fd;
+}
+.el-button--text span:active{
+  color: #094de9;
+}
+body .sn-table .el-table--border .el-table__cell {
+  border-right: 1px solid rgb(253,253,253);
+}
+.el-input.is-disabled .el-input__inner {
+  background-color: #F5F7FA;
+}
+// 步骤条
+.el-step__title.is-process{
+  color: #1D2129;
+}
+.el-step .is-wait .is-text{
+  color: #a8abb2;
+  border-color:#a8abb2;
+}
+.el-step .is-success .is-text,
+.el-step .is-success.el-step__title{
+  color: #165DFF;
+  border-color:#165DFF;
+}
+.el-step  .is-success .el-step__line{
+  background-color:#165DFF
+}
+/*--表格筛选处理--*/
+.el-table__column-filter-trigger i {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.el-table-filter__bottom button {
+  padding: 0 6px;
+  float: right;
+  padding-bottom: 6px;
+}
+
+.el-table-filter__bottom {
+  text-align: right;
+}
+// 
+.el-input__wrapper,.el-button{
+  border-radius: var(--el-border-radius-small);
+}
+.el-timeline-item__content {
+  clear: both;
+}
+.el-button--text span{
+  color: #165DFF ;
+}
+/*---滚动条大小--*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+/*---滚动条默认显示样式--*/
+::-webkit-scrollbar-thumb {
+  background:#d1d1d1;
+  border-radius:12px;
+  border:2px solid transparent;
+}
+/*---鼠标经过显示样式--*/
+::-webkit-scrollbar-thumb:hover{
+  background-color:#b5b5b5;
+}
+/*---鼠标点击样式--*/
+::-webkit-scrollbar-thumb:active{
+  background-color:#999;
+}
+/*---滚动条两端的按钮样式--*/
+::-webkit-scrollbar-button{
+  display:none;
+}
+/*---外层轨道,可以用display:none让其不显示--*/
+::-webkit-scrollbar-track{
+  background:transparent;
+}
+/*---内层轨道，滚动条中间部分（除去）--*/
+::-webkit-scrollbar-track-piece{
+  display:none;
+}
+/*---边角样式--*/
+::-webkit-scrollbar-corner{
+  display:none;
+}
+/*---定义右下角拖动块的样式--*/
+::-webkit-scrollbar-resizer{
+  display: none;
+}
+@media print {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .el-table__empty-block {
+    height: 60px !important;
+  }
+  .print-title {
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e6edf3;
+    margin-bottom: 20px;
+  }
+  .el-table--small .el-table__cell {
+    padding: 4px 0 !important;
+  }
+}
+body {overflow: hidden;}
